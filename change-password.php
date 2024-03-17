@@ -11,14 +11,14 @@
 
         <?php include 'header.php';
         
-        echo '<form action = "change-phone-action.php" style = "width:500px; float: left;" class = "container-fluid p-3">
+        echo '<form action = "change-password-action.php" style = "width:500px; float: left;" class = "container-fluid p-3">
                 <div class="mb-3">
-                    <label class="form-label">Old phone number</label>
-                    <input type="text" class="form-control" name="old-phone">
+                    <label class="form-label">Old Password</label>
+                    <input type="password" class="form-control" name="old-pswd">
                 </div>
                 <div class="mb-3">
-                    <label class="form-label">New phone number</label>
-                    <input type="text" class="form-control" name="new-phone">
+                    <label class="form-label">New Password</label>
+                    <input type="password" class="form-control" name="new-pswd">
                 </div>
                 <button type="submit" class="btn btn-dark">Submit</button>
         
